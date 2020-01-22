@@ -1,0 +1,318 @@
+ @font-face {
+      font-family: "spider";
+      src: url("SPIDERMAN.ttf");
+    }
+    @font-face {
+      font-family: "para";
+      src: url("para.ttf");
+    }
+@font-face {
+      font-family: "para2";
+      src: url("para2.ttf");
+    }
+    @font-face {
+      font-family: "indigo";
+      src: url("in.ttf");
+    }
+
+body{ 
+	margin: 0;
+	padding: 0;
+	color: #ddd;
+	font-size: 12px;
+	line-height: 1.6em; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: orange;
+    background: -webkit-linear-gradient( left, black, #480000 ,#480000, #800000 , #480000 ,#480000, black );
+	
+	}
+
+
+a, a:link, a:visited { color: red; font-weight: inherit; text-decoration: overline; }
+a:hover { color: yellow; text-decoration: underline; }
+
+ul, li {
+	padding:0;
+	margin:0;
+	color: red;
+	list-style: decimal-leading-zero;
+
+}
+
+li:after {
+	padding-left: 10px;
+	font-size: 22px;
+    content: "✔";
+    color: silver; /* or whatever color you prefer */
+}
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 58px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 34px; margin: 15px 0 30px; padding: 5px 0; font-family: 'spider', Arial; color: silver; }
+h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; font-weight: 700 }
+
+
+p { padding: 0; 
+	margin: 0 0 15px 0;
+	margin-top: -12px; 
+	text-shadow:5px 5px 10px gray;
+	 color: #A13B3B; 
+	 font-family: 'indigo'; 
+font-size: 17px;
+font-style: bolder;
+	}
+
+.clear{
+	clear:left;
+}
+
+cite { font-weight: bold; color:#fff; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #ccc; }
+
+
+.list_bullet { margin: 0 0 10px 15px; padding: 0; list-style: none }
+.list_bullet li { color:white; margin: 0 0 7px 0; padding: 0 0 0 20px; font-size: 12px; }
+.list_bullet li a { color: #fff; font-weight: normal; text-decoration: none }
+.list_bullet li a:hover 
+{   color: white ;
+  text-decoration: none;
+  text-shadow:5px 5px 100px blue;  }
+
+.no_bullet { margin: 0; padding: 0; list-style: none }
+.no_bullet li { margin: 0 0 20px 0; padding: 0 }
+a.header { display: block; font-weight: 700 }
+
+.half { width: 370px }
+
+.h20 { height: 20px }
+.h40 { height: 40px }
+
+img { margin: 0; padding: 0; border: none }
+.img_border { padding: 4px; }
+.img_nom { display: inline-block; margin-bottom: 15px }
+.img_fl { float: left; margin: 3px 15px 5px 0 }
+.img_fr { float: right; margin: 3px 0 5px 15px }
+#img_size{width: 50px; height: 50px;}
+
+.left { float: left }
+.right { float: right }
+
+#templatemo_header {
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px 0;
+	background-color: black;
+	margin-top: -649px;
+	margin-left: 227px;
+	background-image: url("images/deadpool.jpeg");
+	border: dotted black;
+	
+
+}
+
+#templatemo_main {
+	width: 800px;
+	height: 487px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: black;
+	margin-left: 0px;
+	margin-top: 10px;
+	background-image: url("images/deadpool4.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#templatemo_footer {
+	width: 800px;
+	margin: 0 ;
+	padding: 20px 0;
+	text-align: right;
+	background-color: black;
+	margin-left: 0px;
+	height: 36px;
+	background-image: url("images/metal.jpg");
+	 background-attachment: fixed;
+    background-position: top ;
+    background-size: 200px 500px;
+    background-repeat: repeat-y;
+    margin-top: 0px;
+    
+
+}
+}
+
+#site_title { display: block }
+#site_title a { color: black; font-weight: 700; letter-spacing: 10px; line-height: 30px; background-color: red}
+
+#content{
+	overflow:hidden;
+	width: 7000px;
+	position:relative;
+	height: 487px;
+}
+
+.section {
+	position:relative;
+	float:left;
+	width: 800px;
+	height: 487px;
+	margin-right: 20px;
+}
+
+.section a.slider_nav_btn { position: absolute; top: 0; width: 50px; height: 46px; display: block; background-image: url(images/deadpoolNava.png);  text-indent: -10000px }
+.section a.home_btn { right: 50px; background-position: 102px 0 }
+.section a.previous_btn { right: 100px; background-position: 0 0 }
+.section a.next_btn { right: 0px; background-position: 50px 0 }
+
+.box { float: left; margin: 0 10px 10px 0 }
+#home_about { width: 314px; height: 314px }
+#home_gallery { width: 476px; height: 314px }
+.home_box1 { width: 152px; height: 152px }
+.home_box2 { width: 314px; height: 152px }
+.color1 { background: #d0b500 }
+.color2 { background: #c75000 }
+.color3 { background: #480000 }
+.color4 { background: #a4c700 }
+#home_gallery a { display: block; float: left; width: 152px; height: 152px; margin: 0 10px 10px 0 }
+#home_gallery a.no_mr { margin-right: 0 }
+
+#social_links {
+	text-align: center;
+	padding-top: -20px;
+    margin-left: -12px;
+ }
+#social_links a {
+	display: block;
+	float: left;
+	width: 68px;
+	height: 68px;
+	margin-left: 12px
+}
+#social_links img {
+	height:152px; 
+	width:320px;
+
+}
+
+#gallery {
+
+}
+
+#gallery li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 152px;
+	height: 245px;
+	background: none;
+	margin: 0 10px 10px 0;
+}
+#gallery li a {
+	display: block;
+}
+#gallery li a img  { }
+
+#gallery li.no_margin_right { margin-right: 0 }
+
+#contact_form { padding: 0; width: 330px }
+
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input_field { width: 150px; padding: 5px; color: #CCC; border: 1px solid #666;  background: #222; margin-bottom: 10px; }
+
+#contact_form form label { display: block;font-size: 11px }
+
+#contact_form form textarea { 
+	clear: both; 
+	width: 320px; height: 120px; 
+	padding: 5px; 
+	color: #CCC;
+	border: 1px solid #666; 
+	font-family: Arial, Helvetica, sans-serif; 
+	background: #222; 
+	margin-bottom: 10px;
+}
+
+#contact_form form .submit_btn { font-size: 12px; background: #333; color: #CCC; cursor:pointer; border: 1px solid #666; padding: 5px 10px; }
+
+.no_mr { margin-right: 0 }
+
+#leftSideBanner
+{
+color: red;
+background-color: white;
+font-size: 50px;
+margin-top: -210px;
+margin-left: 6px;
+margin-bottom: 4px;
+width: 200px;
+height: 800px;
+background: -webkit-linear-gradient( right bottom, black, black, red, black, black, black, black, black, black, black, black, black, black, black, black, black, black,black,black, black, red, black, black);
+border: 10px double #480000;
+}
+
+#rightSideBanner
+{
+color: red;
+background-color: white;
+font-size: 50px;
+margin-top: -824px;
+margin-left: 1036px;
+margin-bottom: 4px;
+width: 220px;
+height: 800px;
+background: -webkit-linear-gradient( right top, black, black, red, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black,black,black, black, red, black, black);
+border: 10px double #480000;
+}
+#banner{
+	float: top;
+	margin-top: 0px;
+	margin-left: 228px;
+	width: 806px;
+}
+#leftSide{
+	height: 280px;
+	width: 190px;
+	margin-left: 5px;
+	margin-top: 240px;
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
+}
+#rightSide{
+	height: 280px;
+	width: 220px;
+	margin-left: 0px;
+	margin-top: 240px;
+}
+#container{
+	border: 10px solid white;
+	margin-top: 60px;
+}
+#footerImage{
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin-top: -30px;
+	margin-left: -25px;
+}
+#copyright{
+	color: red;
+	font-size: 10.5px;
+	margin-right: 14px;
+	margin-top: 35px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#resizeAll{
+	
+
+}
